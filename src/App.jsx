@@ -13,7 +13,13 @@ export function App() {
         <Sidebar/>
         <main>
           <Post
-            author={"Pablo Lindo"}
+            author={"Pablo Henrique"}
+            content={
+              "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus laudantium, temporibus quas architecto blanditiis fugiat beatae id sapiente, aperiam labore deserunt quia alias amet porro illum ipsa cumque, tempore recusandae."
+            }
+          />
+          <Post
+            author={"Guilherme Gabriel"}
             content={
               "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus laudantium, temporibus quas architecto blanditiis fugiat beatae id sapiente, aperiam labore deserunt quia alias amet porro illum ipsa cumque, tempore recusandae."
             }

@@ -22,10 +22,19 @@ export function Post() {
 
       <div className={styles.content}>
         <p>Fala galeraaa 👋 Quem fala aqui é o Guilherme! </p>
-        <p>Acabei de subir mais um projeto no meu portifa! Esse aqui foi desenvolvido durante o NLW Return, evento da Rocketseat. </p>
+        <p>
+          Acabei de subir mais um projeto no meu portifa! Esse aqui foi
+          desenvolvido durante o NLW Return, evento da Rocketseat.{" "}
+        </p>
         <p>O nome do projeto é DoctorCare</p>
-        <p><a href="#"> 🚀guime.design/doctorcare</a></p>
-        <p><a href="#">👉 #novoprojeto #nlw #rocketseat</a></p>
+        <p>
+          <a href="#">guime.design/doctorcare</a>
+        </p>
+        <p>
+          <a href="#">#novoprojeto</a>{' '}
+          <a href="#">#nlw</a>{' '}
+          <a href="#">#rocketseat</a>
+        </p>
       </div>
     </article>
   );
