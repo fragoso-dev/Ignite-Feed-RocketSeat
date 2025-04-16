@@ -31,11 +31,20 @@ export function Post() {
           <a href="#">guime.design/doctorcare</a>
         </p>
         <p>
-          <a href="#">#novoprojeto</a>{' '}
-          <a href="#">#nlw</a>{' '}
+          <a href="#">#novoprojeto</a> <a href="#">#nlw</a>{" "}
           <a href="#">#rocketseat</a>
         </p>
       </div>
+
+      <form className={styles.commentForm}>
+        <strong>Deixe seu feedback</strong>
+
+        <textarea placeholder="Deixe um comentario" />
+
+        <footer>
+          <button type="submit">Comentar</button>
+        </footer>
+      </form>
     </article>
   );
 }
