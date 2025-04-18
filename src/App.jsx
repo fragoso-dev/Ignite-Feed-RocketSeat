@@ -10,7 +10,7 @@ export function App() {
     <div>
       <Header />
       <div className={styles.wrapper}>
-        <Sidebar/>
+        <Sidebar />
         <main>
           <Post
             author={"Pablo Henrique"}
