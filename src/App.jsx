@@ -25,9 +25,9 @@ const posts = [
       },
       { type: "link", content: "guime.design/doctorcare" },
     ],
-    publishedAt: new Date('2025-05-25 10:25')
+    publishedAt: new Date("2025-05-25 10:25"),
   },
-  
+
   {
     id: 2,
     author: {
@@ -47,7 +47,7 @@ const posts = [
       },
       { type: "link", content: "guime.design/doctorcare" },
     ],
-    publishedAt: new Date('2025-05-22 10:25')
+    publishedAt: new Date("2025-05-22 14:00"),
   },
 ];
 
@@ -58,13 +58,14 @@ export function App() {
       <div className={styles.wrapper}>
         <Sidebar />
         <main>
-          {posts.map(post => {
+          {posts.map((post) => {
             return (
-            <Post
-              author={post.author}
-              content={post.content}
-              publishedAt={post.publishedAt}
-            />)
+              <Post
+                author={post.author}
+                content={post.content}
+                publishedAt={post.publishedAt}
+              />
+            );
           })}
         </main>
       </div>
